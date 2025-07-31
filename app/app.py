@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_csv("app/sample_data.csv", parse_dates=["Date"])
+df = pd.read_csv("sample_data.csv", parse_dates=["Date"])
 
 # Sidebar filters
 st.sidebar.header("Filters")
