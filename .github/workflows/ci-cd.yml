@@ -37,3 +37,6 @@ jobs:
 
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/fintech-dashboard:latest
+
+    - name : Pull image from DockerHub
+      run: docker pull vaish73229/ci-cd-fintech-dashboard:latest
